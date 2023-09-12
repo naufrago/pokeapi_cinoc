@@ -3,6 +3,6 @@
     alt="..." style="width: 100px;">
     <div class="card-body">
       <h5 class="card-title">{{informacion.name}}</h5>      
-      <a href="#" class="btn btn-primary">ir a</a>
+      <a [routerLink]="['/pokemon/'+informacion.name]" class="btn btn-primary">ir a</a>
     </div>
   </div>

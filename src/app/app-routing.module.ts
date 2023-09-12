@@ -6,7 +6,7 @@ import { JsonComponent } from './components/json/json.component';
 
 const routes: Routes = [
   { path: 'home', component:HomeComponent},
-  { path: 'pokemon', component:PokemonComponent},
+  { path: 'pokemon/:nombre', component:PokemonComponent},
   { path: 'json', component:JsonComponent},
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
